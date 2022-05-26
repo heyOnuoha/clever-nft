@@ -1,0 +1,25 @@
+{
+  "name": "clever-programmer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "ethereum-unit-converter": "0.0.17",
+    "truffle-plugin-verify": "^0.5.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "cd client && npm run dev",
+    "migrate": "truffle migrate --network rinkeby"
+  },
+  "author": "",
+  "license": "ISC"
+}
